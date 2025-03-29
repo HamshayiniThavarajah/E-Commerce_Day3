@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 @RestController
 @RequestMapping("/app")
 public class AppController {
-    Student ob1 = new Student("2020ict30","Thilan",25,"IT",3.0);
-    Student ob2 = new Student("2020ict21","Sandeepa",25,"IT",6.0);
-	Student ob3 = new Student("2020ict49","goka",25,"IT",4.0);
-	Student ob4 = new Student("2020ict32","baiyamalliteshan",25,"IT",4.0);
+    Student ob1 = new Student("2020ict01","Bob",22,"IT",3.6);
+    Student ob2 = new Student("2020ict02","Alice",22,"IT",2.9);
+	Student ob3 = new Student("2020ict03","Mary",22,"IT",1.5);
+	Student ob4 = new Student("2020ict04","John",23,"IT",2.8);
 	
 	Student[] arr = {ob1,ob2,ob3,ob4};
 	
